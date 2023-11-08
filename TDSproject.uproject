@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{01A7701E-4FF0-66CD-F2AA-F9AF93A5D8AE}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TDSproject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
