@@ -3,16 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
-#include "TDSprojectCharacter.generated.h"
+//#include "GameFramework/Character.h"
+#include "TDSproject/Characters/BaseCharacter.h"
+#include "PlayerCharacter.generated.h"
 
 UCLASS(Blueprintable)
-class ATDSprojectCharacter : public ACharacter
+class APlayerCharacter : public ABaseCharacter
 {
 	GENERATED_BODY()
 
 public:
-	ATDSprojectCharacter();
+	APlayerCharacter();
 
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
