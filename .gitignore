@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/.idea/.idea.TDSproject.dir/.idea/encodings.xml
+/.idea/.idea.TDSproject.dir/.idea/indexLayout.xml
+/.idea/.idea.TDSproject/.idea/vcs.xml
+/.idea/.idea.TDSproject.dir/.idea/vcs.xml
